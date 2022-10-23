@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer_items {
     width: 255px;
-    display:inline-block ;
+    display:inline-block;
     margin-right: 30px;
     margin-top: 87px;
 }
@@ -243,10 +243,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000;
     border-bottom: 1px solid #EFEFEF;
     padding-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 .footer_item {
-    margin-top: 35px;
     width: 82px;
     padding: 0;
     font-size: 0;
