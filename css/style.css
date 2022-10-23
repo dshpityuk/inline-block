@@ -39,9 +39,11 @@ body {
     line-height: 16px;
     color: #333333;
     text-decoration: none;
-    
 }
 
+.top_menu a:hover {
+    color: #F13C6E;
+}
 /* ?-------------------mid-header------------------------- */
 
 .main_header {
@@ -53,6 +55,7 @@ body {
     margin-top: 20px;
     float: right;
 }
+
 
 .header_call a {
     margin-left: 40px;
@@ -75,6 +78,12 @@ body {
     background-color: #fff;
     border: 2px solid #F13C6E;
     border-radius: 40px;
+    cursor: pointer;
+}
+
+.call_btn button:hover {
+    opacity: 80%;
+    color:#F13C6E;
 }
 
 /* ?-------------------bot-header------------------------- */
@@ -94,12 +103,114 @@ body {
     text-decoration: none;
 }
 
-/* !-------------------main-section------------------------- */
-
-.main_info {
-    width: 540px;
+.bot_header a:hover {
+    color: #F13C6E;
 }
 
-.main_wrapper img {
-    float: left;
+/* !-------------------main-section------------------------- */
+
+.chair {
+    background-color: #F13C6E;
+}
+
+.chair_left {
+    padding-top: 192px;
+}
+
+.chair_right {
+    padding-top: 20px;
+    float: right;
+}
+
+.chair_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.chair_descr {
+    margin-top: 31px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.chair_left a {
+    
+}
+
+.chair_left .chair_btn {
+    width: 170px;
+    padding: 12px 26px;
+    margin-top: 51px;
+    font-size: 14px;
+    color: white;
+    background-color: #F13C6E;
+    border: 2px solid white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.chair_left button:hover {
+    opacity: 80%;
+}
+
+/* !====================goods================== */
+
+.good {
+    background-color: #EFEFEF;
+    padding-bottom: 75px;
+}
+
+.good_title {
+    padding-top: 80px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.good_items {
+    padding-left: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.good_item {
+    margin: 38px 30px 0 0;
+    padding: 25px 30px;
+    display: inline-block;
+    width: 255px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    background-color: #fff;
+}
+
+.good_items .mr-0 {
+    margin-right: 0;
+}
+
+.good_descr {
+    margin: 20px 0 20px 0;
+}
+
+.good_item button {
+    margin-top: 20px;
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border: none;
+    background: #F13C6E;
+    border-radius: 30px;
+}
+
+.good_item button:hover {
+    cursor: pointer;
+    opacity: 80%;
 }
