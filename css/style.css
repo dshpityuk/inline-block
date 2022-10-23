@@ -260,6 +260,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #828282;
 }
 
+.footer_list a:hover {
+    color: #F13C6E;
+}
+
 .mr-0 {
     margin-right: 0;
 }
