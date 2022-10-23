@@ -27,10 +27,11 @@ h1, h2, h3, h4, h5, h6 {
 /* !-------------------top-header------------------------- */
 
 .top_header {
-    background-color: #FFFFFF;
+    background-color: #D9D9D9;
 }
 
 .top_menu {
+    margin: 17px 0 15px 0;
     float: right;
 
 }
@@ -260,6 +261,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #F13C6E;
 }
 
-.mr-0 {
+.footer_items .mr-0 {
     margin-right: 0;
 }
