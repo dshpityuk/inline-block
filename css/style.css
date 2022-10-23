@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer_items {
     width: 255px;
-    display:inline-block;
+    float: left;
     margin-right: 30px;
     margin-top: 87px;
 }
@@ -264,3 +264,34 @@ h1, h2, h3, h4, h5, h6 {
 .mr-0 {
     margin-right: 0;
 }
+
+/* ?================footer_mid================ */
+
+.footer_mid {
+    margin-top: 60px;
+    border-top: 1px solid #EFEFEF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ?================footer_bottom================ */
+
+
