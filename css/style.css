@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 /* !-------------------top-header------------------------- */
 
 .top_header {
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
 .top_menu {
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main_header {
     padding: 20px;
-    border: 1px solid #EFEFEF;
+    border: 1px solid #FFFFFF;
 }
 
 .header_call {
@@ -149,9 +149,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 12px 26px;
     margin-top: 51px;
     font-size: 14px;
-    color: white;
+    color: #FFFFFF;
     background-color: #F13C6E;
-    border: 2px solid white;
+    border: 2px solid #FFFFFF;
     border-radius: 40px;
     cursor: pointer;
 }
@@ -229,14 +229,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* !====================footer================== */
 
-.footer_content {
+.footer_items {
     width: 255px;
     display:inline-block ;
     margin-right: 30px;
     margin-top: 87px;
 }
 
-.footer_title-content {
+.footer_content-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 140.62%;
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 50px;
 }
 
-.footer_list {
+.footer_item {
     margin-top: 35px;
     width: 82px;
     padding: 0;
@@ -253,14 +253,14 @@ h1, h2, h3, h4, h5, h6 {
     list-style-type: none;
 }
 
-.footer_list a {
+.footer_item a {
     text-decoration: none;
     font-size: 12px;
     line-height: 28px;
     color: #828282;
 }
 
-.footer_list a:hover {
+.footer_item a:hover {
     color: #F13C6E;
 }
 
