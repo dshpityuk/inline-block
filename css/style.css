@@ -200,6 +200,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 20px 0 20px 0;
 }
 
+.price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
 .good_item button {
     margin-top: 20px;
     width: 130px;
@@ -221,17 +229,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* !====================footer================== */
 
-.footer_wrapper {
-
-}
-
-
 .footer_content {
     width: 255px;
+    display:inline-block ;
     margin-right: 30px;
     margin-top: 87px;
-    display: inline-block;
-    font-size: 0;
 }
 
 .footer_title-content {
@@ -240,6 +242,22 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 140.62%;
     color: #000000;
     border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 50px;
+}
+
+.footer_list {
+    margin-top: 35px;
+    width: 82px;
+    padding: 0;
+    font-size: 0;
+    list-style-type: none;
+}
+
+.footer_list a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
 }
 
 .mr-0 {
