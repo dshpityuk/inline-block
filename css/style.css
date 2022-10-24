@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main_header {
     padding: 20px;
-    border: 1px solid #FFFFFF;
+    border-bottom: 1px solid  #EFEFEF;
 }
 
 .header_call {
@@ -110,6 +110,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 19px;
     color: #000000;
     text-decoration: none;
+
 }
 
 .bot_header a:hover {
@@ -186,11 +187,16 @@ h1, h2, h3, h4, h5, h6 {
     padding: 25px 30px;
     display: inline-block;
     width: 255px;
-    font-size: 14px;
-    line-height: 20px;
     text-align: center;
-    color: #333333;
     background-color: #fff;
+}
+
+.good_item img {
+    margin-bottom: 20px;
+}
+
+.good_item img:hover {
+    opacity: 60%;
 }
 
 .good_items .mr-0 {
@@ -198,10 +204,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .good_descr {
-    margin: 20px 0 20px 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    text-decoration: none;
 }
 
+.good_descr
+
 .price {
+    margin-top: 20px;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
@@ -209,6 +222,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.05em;
     color: #000000;
 }
+
 .good_item button {
     margin-top: 20px;
     width: 130px;
@@ -347,7 +361,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #828282;
     text-decoration: none;
 }
-
 
 .conf:hover {
     color: #F13C6E;
