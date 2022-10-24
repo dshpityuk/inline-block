@@ -74,6 +74,10 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
+.header_phone:hover {
+    text-decoration: underline;
+}
+
 .call_btn button {
     padding: 12px 26px;
     font-size: 14px;
@@ -272,7 +276,77 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 1px solid #EFEFEF;
 }
 
+.footer_social {
+    margin-top: 37px;
+    float: left;
+}
 
+.footer_social img {
+    margin-right: 20px;
+}
+
+.footer_social img:hover {
+    opacity: 80%;
+}
+
+.footer_call {
+    float: right;
+    margin-bottom: 40px;
+}
+
+.footer_call .phone {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.footer_call .phone:hover {
+    text-decoration: underline;
+}
+
+.footer_btn {
+    margin: 40px 0 0 40px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+    width: 170px;
+    height: 40px;
+    left: 1345.5px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.footer_btn:hover {
+    opacity: 80%;
+}
+
+/* ?================footer_bottom================ */
+
+.footer_bottom {
+    padding: 20px 0 20px;
+    background-color: #efefef;
+}
+
+.copyright {
+    float: left;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.conf {
+    float: right;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #828282;
+    text-decoration: none;
+}
 
 
 
