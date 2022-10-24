@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-.footer_btn {
+.footer_btn button {
     margin: 40px 0 0 40px;
     font-size: 14px;
     line-height: 16px;
