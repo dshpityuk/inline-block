@@ -288,17 +288,32 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 1px solid #EFEFEF;
 }
 
-.footer_social {
+.footer_social a {
     margin-top: 37px;
+    margin-right: 20px;
     float: left;
 }
 
-.footer_social img {
-    margin-right: 20px;
+.footer_social a:hover {
+    opacity: 80%;
 }
 
-.footer_social img:hover {
-    opacity: 80%;
+.facebook {
+    background-image: url('../icons/Group\ 2.svg');
+    width: 45px;
+    height: 45px;
+}
+
+.youtube {
+    background-image: url('../icons/Group\ 4.svg');
+    width: 45px;
+    height: 45px;
+}
+
+.instagram {
+    background-image: url('../icons/Group\ 3.svg');
+    width: 45px;
+    height: 45px;
 }
 
 .footer_call {
