@@ -105,11 +105,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bot_header-nav {
-    margin-right: 25px;
+    margin-right: 16px;
+    padding-right: 29px;
+    outline: 9px;
 }
 
 .bot_header a {
-    margin-left: 38px;
+    margin-left: 39px;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
@@ -223,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .price {
     margin-top: 18px;
-    margin-bottom: 2px;
+    margin-bottom: 2px; 
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
@@ -296,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ?================footer_mid================ */
 
 .footer_mid {
-    margin-top: 46px;
+    margin-top: 47px;
     border-top: 1px solid #EFEFEF;
 }
 
@@ -367,7 +369,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ?================footer_bottom================ */
 
 .footer_bottom {
-    padding: 29px 0 20px;
+    padding: 30px 0 20px;
     background-color: #efefef;
 }
 
