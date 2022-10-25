@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top_menu a {
-    margin-left: 30px;
+    margin-left: 25px;
     list-style: none;
     display: inline-block;
     font-size: 14px;
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .header_call a {
-    margin-left: 40px;
+    margin-left: 34px;
     text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .call_btn button {
-    padding: 12px 26px;
+    padding: 10px 26px;
     font-size: 14px;
     line-height: 16px;
     color: #000000;
@@ -98,14 +98,18 @@ h1, h2, h3, h4, h5, h6 {
 /* ?-------------------bot-header------------------------- */
 
 .bot_header {
-    padding-top: 33px;
-    padding-bottom: 24px;
+    padding-top: 21px;
+    padding-bottom: 18px;
     text-align: center;
     border-bottom: 12px solid #D9D9D9;
 }
 
+.bot_header-nav {
+    margin-right: 25px;
+}
+
 .bot_header a {
-    margin-left: 40px;
+    margin-left: 38px;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
@@ -119,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* !-------------------main-section------------------------- */
 
-.chair {
+.chair { 
     background-color: #F13C6E;
 }
 
@@ -128,11 +132,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .chair_right {
-    padding-top: 20px;
+    padding-top: 18px;
     float: right;
 }
 
+.chair_right img {
+    margin-right: 83px;
+}
+
 .chair_title {
+    letter-spacing: -2px;
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
@@ -140,15 +149,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .chair_descr {
-    margin-top: 31px;
+    margin-top: 42px;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 17px;
     color: #FFFFFF;
 }
 
 .chair_left .chair_btn {
     width: 170px;
-    padding: 12px 26px;
+    padding: 10px 26px;
     margin-top: 51px;
     font-size: 14px;
     color: #FFFFFF;
@@ -170,7 +179,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .good_title {
-    padding-top: 80px;
+    padding-top: 75px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 24px;
     color: #000000;
@@ -184,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .good_item {
     margin: 38px 30px 0 0;
-    padding: 25px 30px;
+    padding: 15px 30px;
     display: inline-block;
     width: 255px;
     text-align: center;
@@ -212,7 +222,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .price {
-    margin-top: 20px;
+    margin-top: 18px;
+    margin-bottom: 2px;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
@@ -222,7 +233,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .good_item button {
-    margin-top: 20px;
+    margin-top: 12px;
+    margin-bottom: 7px;
     width: 130px;
     height: 35px;
     font-size: 14px;
@@ -246,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 255px;
     float: left;
     margin-right: 30px;
-    margin-top: 87px;
+    margin-top: 92px;
 }
 
 .footer_content-title {
@@ -255,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 140.62%;
     color: #000000;
     border-bottom: 1px solid #EFEFEF;
-    padding-bottom: 50px;
+    padding-bottom: 41px;
     margin-bottom: 35px;
 }
 
@@ -284,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ?================footer_mid================ */
 
 .footer_mid {
-    margin-top: 60px;
+    margin-top: 46px;
     border-top: 1px solid #EFEFEF;
 }
 
@@ -334,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer_btn button {
-    margin: 40px 0 0 40px;
+    margin: 40px 0 -5px 36px;
     font-size: 14px;
     line-height: 16px;
     color: #000000;
@@ -355,11 +367,12 @@ h1, h2, h3, h4, h5, h6 {
 /* ?================footer_bottom================ */
 
 .footer_bottom {
-    padding: 20px 0 20px;
+    padding: 29px 0 20px;
     background-color: #efefef;
 }
 
 .copyright {
+    margin-bottom: 6px;
     float: left;
     font-size: 12px;
     line-height: 14px;
