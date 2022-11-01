@@ -203,7 +203,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .good_item img {
-    margin-bottom: 20px;
+    margin-top: 7px;
+    margin-bottom: 16px;
 }
 
 .good_item img:hover {
@@ -238,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .good_item button {
-    margin-top: 12px;
+    margin-top: 8px;
     margin-bottom: 7px;
     width: 130px;
     height: 35px;
