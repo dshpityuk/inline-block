@@ -36,12 +36,16 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.top_menu a {
+.top_menu li {
     margin-left: 25px;
     list-style: none;
     display: inline-block;
+    vertical-align: top;
     font-size: 14px;
-    line-height: 16px;
+
+}
+
+.top_menu a {
     color: #333333;
     text-decoration: none;
 }
@@ -61,13 +65,9 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
-
-.header_call a {
-    margin-left: 34px;
-    text-decoration: none;
-}
-
 .header_phone {
+    margin-right: 34px;
+    text-decoration: none;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-.call_btn button {
+.header_call button {
     padding: 10px 26px;
     font-size: 14px;
     line-height: 16px;
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.call_btn button:hover {
+.call_btn:hover {
     opacity: 80%;
     color:#F13C6E;
 }
@@ -196,6 +196,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 38px 30px 0 0;
     padding: 15px 30px;
     display: inline-block;
+    vertical-align: top;
     width: 255px;
     text-align: center;
     background-color: #fff;
@@ -219,6 +220,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #333333;
     text-decoration: none;
+}
+
+.good_descr:hover {
+    color: #F13C6E;
 }
 
 .price {
@@ -255,6 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 /* !====================footer================== */
 
 .footer_items {
+
     width: 255px;
     float: left;
     margin-right: 30px;
@@ -262,6 +268,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer_content-title {
+    text-align: left;
     font-weight: 500;
     font-size: 16px;
     line-height: 140.62%;
@@ -345,15 +352,12 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-.footer_btn button {
+.footer_call .footer_btn {
+    padding: 10px 26px;
     margin: 40px 0 -5px 36px;
     font-size: 14px;
     line-height: 16px;
     color: #000000;
-
-    width: 170px;
-    height: 40px;
-    left: 1345.5px;
     background: #FFFFFF;
     border: 2px solid #F13C6E;
     border-radius: 40px;
@@ -362,12 +366,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer_btn:hover {
     opacity: 80%;
+    color:#F13C6E;
 }
 
 /* ?================footer_bottom================ */
 
 .footer_bottom {
-    padding: 30px 0 20px;
+    padding: 26px 0 20px;
+    margin-top: 3px;
     background-color: #efefef;
 }
 
